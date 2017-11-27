@@ -1,0 +1,15 @@
+{
+  "name": "metaesquema-util",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "matter-js": "^0.13.0",
+    "tone": "^0.11.11"
+  }
+}
