@@ -40,12 +40,15 @@ function setup(options) {
    */
   Matter.Render.run(render)
 
+  let START = 2 * Math.PI * 1/8
+  let END = START + (2 * Math.PI) * 1/2
+
   let arc = ME.Matter.Composites.arc({
   	x: CANVAS_WIDTH / 2,
   	y: CANVAS_HEIGHT / 2,
   	radius: CANVAS_HEIGHT / 3,
-  	startAngle: 0,
-  	endAngle: 2 * Math.PI,
+  	startAngle: START,
+  	endAngle: END,
   	sides: 100,
   }, (spec) => {
 
