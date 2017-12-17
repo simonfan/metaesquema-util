@@ -22,15 +22,29 @@
 
 			display: flex;
 		}
+
+		label {
+			background-color: black;
+			color: white;
+		}
 	</style>
 </head>
 <body>
 	<canvas id="waveform-canvas"></canvas>
 	<div id="notes">
+	  <button data-note="10">10</button>
+	  <button data-note="100">100</button>
 	  <button data-note="C4">C4</button>
 	  <button data-note="E4">E4</button>
 	  <button data-note="G4">G4</button>
 	  <button data-note="B4">B4</button>
+
+	  <label>
+	  	<input id="microphone-toggle" type="checkbox" name="">
+	  	microphone
+	  </label>
+
+	  
 	</div>
 	<script type="text/javascript" src="tone-ui-waveform.js"></script>
 </body>
